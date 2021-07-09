@@ -32,7 +32,8 @@
 
 #### Objectif de cet audit:
 
-Votre équipe vous a demandé d'analyser la performance d'un site concurrent pour identifier ce qui marche bien et ce qui ne marche pas, au cas où vous décidez de "scaler" votre propre application.
+Votre équipe \
+vous a demandé d'analyser la performance d'un site concurrent pour identifier ce qui marche bien et ce qui ne marche pas, au cas où vous décidez de "scaler" votre propre application.
 
 Le but étant d'offrir à nos utilisateurs une expérience la plus rapide et agréable possible, tout en nous autorisant le maximum de flexibilité nécessaire pour une possible scalabilité de notre application
 
