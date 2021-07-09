@@ -73,29 +73,33 @@ Il offre des suggestions d'ajustement lié aux points faibles rapportés.
 
 Lighthouse a été configuré de façon à simuler l'utilisation sur un smartphone avet une connexion 3G moyenne.
 
-![Lighthouse configuration pour mobile](/audit_assets/img/config-Lighthouse-mobile-v1.jpg)
+![Lighthouse configuration pour mobile](/audit/audit_assets/img/config-lighthouse-mobile-v1.JPG)
 
 En effet, 68% des visites de site web à l'échelle mondiale sont faites depuis un smartphone. [(source: perficient.com)](https://www.perficient.com/insights/research-hub/mobile-vs-desktop-usage)
 
 Cette configuration vient consolider notre objectif de préparer au mieux notre application à une utilisation concrète.
 
 <a  id="analyze"  />
-
+    
+---  
+    
 ### Analyse du rapport
 
-![ Resultat global](audit_assets/img/metric-global.jpg)
+![Resultat global](/audit/audit_assets/img/metric-global.JPG)
 
 Les scores fournit par Lighthouse vont de 0 à 100.
 
 Le but étant d'avoir les scores les plus hauts possible dans chaque aspect mesurés par l'algorithme Google.
 
-Ces résultats sont calculés en fonction de critères spécifiques selon le métrique visé (performance, accessibilité, seo, etc).
+Ces résultats sont calculés en fonction de critères spécifiques selon le métrique visé (performance, accessibilité, seo, etc).  
+      
+      
+    
 
 <a  id="perf"  />
 
 #### Performance
-
-![ Resultat global](audit_assets/img/performance-metric.jpg)
+![metrique performance](/audit/audit_assets/img/performance-metric.JPG)
 
 Le score faible (<50) induit que le chargement du site audité (ici sur mobile) est lent.
 
@@ -144,8 +148,16 @@ Ce score est déterminé par 6 critères, représentant chacun un mécanisme li�
 Dans le cas de Todolist&period;net, seuls 2 critères (TBT et CLS) sur 6 ont réussi le test Lighthouse.
 
 La section "opportunités" propose des solutions possibles pour accélérer le chargement des pages du site, ainsi que le temps gagné si correctement mis en place:
-
-![Performance opportunités](audit_assets/img/performance-opportunities.jpg)
+  
+                                                     
+                                                     
+                                                     
+                                                       
+                                                       
+                                                       
+                                                     
+                                                     
+![Performance opportunités](/audit/audit_assets/img/performance-opportunities.JPG)
 
 | Opportunités d'améliorations                                                                                                                  | Bénéfices                                                                                                                              |
 | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
@@ -155,9 +167,14 @@ La section "opportunités" propose des solutions possibles pour accélérer le c
 | Pré-charger le/les images du contenu principal de la page avec attribut `preload`                                                             | Indique au navigateur de charger en priorité cette/ces image(s) pour que le LCP soit le plus rapide possible                           |
 | Supprimer le code inutile                                                                                                                     | Evite la consommation de bande passante pour demander du code qui ne sera pas utilisé                                                  |
 
+  
+      
+      
+      
+    
 La section "diagnostics" quelques points présents dans le site qui mériteraient une attention plus particulière:
 
-![ Performance diagnostiques](audit_assets/img/performance-diagnostics.jpg)
+![ Performance diagnostiques](/audit/audit_assets/img/performance-diagnostics.JPG)
 
 | Problèmes diagnostiqués                                                                                                  | Solutions possibles & Bénéfices                                                                                                                                                                      |
 | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -179,25 +196,20 @@ sources:
 
 #### Accessibilité
 
-![ Mesures accessibilité](audit_assets/img/accessibility-metrics.jpg)
-
+![ Mesures accessibilité](/audit/audit_assets/img/accessibility-metrics.JPG)
+    
 | Problèmes diagnostiqués | Solutions possibles & Bénéfices |
-
 | --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-
 | Manque certains attributs aidant les lecteurs d'écran | Attributs `alt` sur les `<img />` <br/> `title` pour les `<iframe><iframe/>`<br /> `<label><label/>` pour les champs de formulaires |
-
 | l'ordre des titres ne sont pas respectés | `h1`>`h2`>`h3` <br /> Facilite la navigation au clavier |
-
 | Pas de langue par défaut pour l'interprétation du contenu | Préciser l'attribut `lang` pour que le contenu soient lu avec la **prononciation** correct |
-
 | Pas de contraste suffisant entre background et foreground | S'assurer que le contraste entre le texte et son fond aient un ratio suffisant, pour que le texte soit lu facilement |
 
 <a  id="best-practice"  />
 
 #### Best Practice
 
-![Mesures Best Practice](audit_assets/img/best-practice-metrics.jpg)
+![Mesures Best Practice](/audit/audit_assets/img/best-practice-metrics.JPG)
 
 | Problèmes diagnostiqués                                                               | Solutions possibles & Bénéfices                                                                                                                                                                  |
 | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -211,7 +223,7 @@ sources:
 
 #### SEO
 
-![Mesure best practice](audit_assets/img/seo-metrics.jpg)
+![Mesure best practice](/audit/audit_assets/img/seo-metrics.JPG)
 
 | Problèmes diagnostiqués                              | Solutions possibles & Bénéfices                                                                                                                              |
 | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
