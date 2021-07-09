@@ -73,7 +73,7 @@ Il offre des suggestions d'ajustement lié aux points faibles rapportés.
 
 Lighthouse a été configuré de façon à simuler l'utilisation sur un smartphone avet une connexion 3G moyenne.
 
-![Lighthouse configuration pour mobile](audit_assets/img/config-Lighthouse-mobile-v1.jpg)
+![Lighthouse configuration pour mobile](/audit_assets/img/config-Lighthouse-mobile-v1.jpg)
 
 En effet, 68% des visites de site web à l'échelle mondiale sont faites depuis un smartphone. [(source: perficient.com)](https://www.perficient.com/insights/research-hub/mobile-vs-desktop-usage)
 
